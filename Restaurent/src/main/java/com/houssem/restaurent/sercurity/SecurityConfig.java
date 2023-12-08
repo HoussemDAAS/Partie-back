@@ -43,6 +43,7 @@ public class SecurityConfig {
 	 			 }
 	 			 }).and()
 	          
+	          
 	          	          
 		    .authorizeHttpRequests()
 		   .requestMatchers("/api/all/**").hasAnyAuthority("ADMIN","USER")
